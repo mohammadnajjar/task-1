@@ -1,0 +1,74 @@
+/* Classes names are :  title  logo nav cards card 
+id are darkorange
+color : #252f31; #fff;
+*/
+
+/* main */
+body,h1 {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header {
+    background-image: url(../images/pexels-photo-1181263.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+header .title{
+    padding:300px 100px;
+    color:#fff;
+    text-align:center;
+    font-size: 35px;
+}
+header .title h1 #darkorange
+{
+    color:darkorange;
+}
+/* nav */
+nav{
+    overflow: hidden;
+    color: #fff;
+    background-color:  #252f31;
+}
+nav .logo h3
+{
+    padding: 0px 0px 0px 20px;
+    float: left;
+    font-style: italic;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    padding-left: 0px;
+}
+nav ul li{
+    float: left;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/*  Cards */ 
+.cards {
+    overflow: hidden;
+}
+.cards > div {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 20px;
+}
+.cards > div img {
+    width: 93%;
+    height: 250px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #252f31;
+    color: white;
+    padding: 20px 0;
+    text-align: center
+}
